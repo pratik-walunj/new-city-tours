@@ -18,6 +18,7 @@ const Gallery        = lazy(() => import('./pages/Gallery'))
 const Blog           = lazy(() => import('./pages/Blog'))
 const Contact        = lazy(() => import('./pages/Contact'))
 const Booking        = lazy(() => import('./pages/Booking'))
+const TaxiCab        = lazy(() => import('./pages/TaxiCab'))
 
 export default function App() {
   const location = useLocation()
@@ -38,6 +39,7 @@ export default function App() {
             <Route path="/contact"            element={<Contact />} />
             <Route path="/booking"            element={<Booking />} />
             <Route path="/booking/:slug"      element={<Booking />} />
+            <Route path="/taxi-cab"           element={<TaxiCab />} />
           </Routes>
         </AnimatePresence>
       </Suspense>
