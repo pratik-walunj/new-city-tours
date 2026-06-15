@@ -1,3 +1,5 @@
+import Pokhara from '../images/Pokhara.jpg';
+
 export const blogs = [
   {
     id: 1,
@@ -57,7 +59,7 @@ Altitude advice: Most fit adults acclimatise without issue if they have spent at
     category: 'Destinations',
     date: 'Apr 12, 2026',
     readTime: 5,
-    image: 'https://images.unsplash.com/photo-1571406252241-db0280bd36cd?w=800&q=80',
+    image: Pokhara,
     excerpt: 'Where to catch the Annapurna sunrise, the best lakeside cafés and how to plan paragliding on your first morning.',
     content: `Pokhara is Nepal distilled: Himalayan drama overhead, a serene lake at your feet, and a Lakeside promenade that moves at the pace of a slow afternoon. It is simultaneously Nepal's adventure capital and its most relaxing city.
 
