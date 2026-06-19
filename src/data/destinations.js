@@ -1,4 +1,6 @@
 import Birthplaceofbudhha from '../images/Birthplaceofbudhha.jpg';
+import nagarkot from '../images/nagarkot.jpg'
+import janakapur from '../images/janakapur.jpg'
 
 export const destinations = [
   {
@@ -49,8 +51,8 @@ export const destinations = [
   {
     name: 'Janakpur',
     tag: 'City of Sita',
-    image: 'https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=800&q=80',
-    thumb: 'https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=400&q=70',
+    image: janakapur,
+    thumb: janakapur,
     desc: "The Mithila heartland and birthplace of Goddess Sita, painted everywhere in folk art and alive with year-round devotional festivals.",
     attractions: ['Janaki Mandir', 'Vivah Mandap', 'Mithila Art', 'Ganga Sagar'],
     bestTime: 'Oct – Mar',
@@ -58,8 +60,8 @@ export const destinations = [
   {
     name: 'Nagarkot',
     tag: 'Sunrise Balcony',
-    image: 'https://images.unsplash.com/photo-1571406252241-db0280bd36cd?w=800&q=80',
-    thumb: 'https://images.unsplash.com/photo-1571406252241-db0280bd36cd?w=400&q=70',
+    image: nagarkot,
+    thumb: nagarkot,
     desc: "A hill station at 2,175 m whose dawn panorama stretches from Annapurna to Everest — arguably Nepal's finest Himalayan sunrise viewpoint.",
     attractions: ['View Tower', 'Sunrise Point', 'Bhaktapur', 'Nature Trails'],
     bestTime: 'Oct – Apr',
