@@ -300,7 +300,7 @@ export default function Navbar() {
                 Book Now
               </Link>
               <div className="px-3 py-3 text-xs text-slate-500 border-t border-slate-100 mt-1 space-y-1.5">
-                <p className="inline-flex items-center gap-1.5"><Phone size={12} /> +977 98510 12345</p>
+                <p className="inline-flex items-center gap-1.5"><Phone size={12} /> +91 99180 01088</p>
                 <p className="inline-flex items-center gap-1.5"><Mail size={12} /> hello@newcitytours.com</p>
               </div>
             </div>
